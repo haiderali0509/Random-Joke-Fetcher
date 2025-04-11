@@ -10,7 +10,6 @@ let jokepromise = new Promise((resolve, reject) => {
       reject(error); // Agar error ho to reject karo
     });
 });
-
 jokepromise
   .then((data) => {
     console.log("Joke:", data);
